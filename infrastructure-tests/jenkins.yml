@@ -1,0 +1,11 @@
+# Configuration for the Build-orchestrator Jenkins
+unclassified:
+  globallibraries:
+    libraries:
+    - defaultVersion: "master"
+      name: "jenkins-library-test"
+      retriever:
+        modernSCM:
+          scm:
+            git:
+              remote: "https://github.com/SAP/jenkins-library-test.git"
